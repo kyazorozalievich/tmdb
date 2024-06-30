@@ -1,0 +1,28 @@
+#actorFilms {
+    margin-top: 20px;
+    .actorFilms {
+        display: flex;
+        overflow-x: scroll;
+        width: 1100px;
+        &::-webkit-scrollbar {
+            overflow-x: hidden;
+        }
+        &--movie {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px 10px;
+
+            img {
+                width: 170px;
+                height: 250px;
+                border-radius: 10px;
+            }
+            h3 {
+                text-align: center;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+#actorDetails {
+    margin-top: 50px;
+    .actorDetails {
+            display: flex;
+            gap: 40px;
+            &--info {
+                img {
+                    border-radius: 10px;
+                }
+                .actorDtl-text {
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin-bottom: 20px;
+                    }
+                    h2 {
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    h4 {
+                        margin-bottom: 10px;
+                        font-weight: 400;
+                    }
+                    .also {
+                        width: 200px;
+                    }
+                }
+            }
+            &--bio {
+                h1 {
+                    letter-spacing: 4px;
+                    margin-bottom: 20px;
+
+                }
+                h2 {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    width: 800px;
+                }
+                .count {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 10px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-left: 600px;
+                    .more {
+
+                        cursor: pointer;
+                        color: rgb(8, 206, 8);
+                        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
+                
+
+                    }
+                    .shirt {
+                        cursor: pointer;
+                        color: rgb(8, 194, 8);
+                        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.208);
+
+                    }
+                   
+                }
+            
+            }
+    }
+}
