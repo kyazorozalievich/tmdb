@@ -9,7 +9,7 @@ const MovieCard = ({el}) => {
     return (
         <div className="blocks" key={el.id} style={{
         }}>
-          <Link to={`/details/${el.id}`}>
+          <Link to={`/details/${el.name}`}>
         <img
           src={el.poster_path ? `https://media.themoviedb.org/t/p/w220_and_h330_face${el.poster_path}`: film}
           alt=""
